@@ -1,0 +1,14 @@
+.marquee {
+    border: 1px solid #d3d3d3;
+    overflow: hidden;
+    max-width: 925px;
+    height: 35px;
+    width: 100%;
+}
+.marquee div {height: 100%;}
+.marquee a {
+	text-decoration: none;
+	color: rgba(5,29,29,1);
+	height: 100%;
+}
+.mq {display: none;} /*just for gujamil*/

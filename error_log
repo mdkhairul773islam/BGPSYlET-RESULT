@@ -1,0 +1,99 @@
+[15-Jun-2020 15:06:06 asia/dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/wwwbgpscsylheted/public_html/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/wwwbgpscsylheted/public_html/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/wwwbgpscsylheted/public_html/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/wwwbgpscsylheted/public_html/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/wwwbgpscsylheted/public_html/application/config/lab_config.php(8): CI_Loader->database('default')
+#4 /home/wwwbgpscsylheted/public_html/system/core/Config.php(130): include('/home/wwwbgpscs...')
+#5 /home/wwwbgpscsylheted/public_html/system/core/Loader.php(1145): CI_Config->load('lab_config')
+#6 /home/wwwbgpscsylheted/public_html/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/wwwbgpscsylheted/public_html/system/core/Controller.php(51): CI_Loader->initialize()
+#8 /home/wwwbgpscsylheted/public_html/application/core/Lab_Controller.php(8): CI_Contro in /home/wwwbgpscsylheted/public_html/system/database/drivers/mysql/mysql_driver.php on line 91
+[15-Jun-2020 15:06:36 asia/dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/wwwbgpscsylheted/public_html/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/wwwbgpscsylheted/public_html/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/wwwbgpscsylheted/public_html/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/wwwbgpscsylheted/public_html/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/wwwbgpscsylheted/public_html/application/config/lab_config.php(8): CI_Loader->database('default')
+#4 /home/wwwbgpscsylheted/public_html/system/core/Config.php(130): include('/home/wwwbgpscs...')
+#5 /home/wwwbgpscsylheted/public_html/system/core/Loader.php(1145): CI_Config->load('lab_config')
+#6 /home/wwwbgpscsylheted/public_html/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/wwwbgpscsylheted/public_html/system/core/Controller.php(51): CI_Loader->initialize()
+#8 /home/wwwbgpscsylheted/public_html/application/core/Lab_Controller.php(8): CI_Contro in /home/wwwbgpscsylheted/public_html/system/database/drivers/mysql/mysql_driver.php on line 91
+[15-Jun-2020 15:08:04 asia/dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home/wwwbgpscsylheted/public_html/system/database/drivers/mysql/mysql_driver.php:91
+Stack trace:
+#0 /home/wwwbgpscsylheted/public_html/system/database/DB_driver.php(115): CI_DB_mysql_driver->db_pconnect()
+#1 /home/wwwbgpscsylheted/public_html/system/database/DB.php(148): CI_DB_driver->initialize()
+#2 /home/wwwbgpscsylheted/public_html/system/core/Loader.php(346): DB(Array, NULL)
+#3 /home/wwwbgpscsylheted/public_html/application/config/lab_config.php(8): CI_Loader->database('default')
+#4 /home/wwwbgpscsylheted/public_html/system/core/Config.php(130): include('/home/wwwbgpscs...')
+#5 /home/wwwbgpscsylheted/public_html/system/core/Loader.php(1145): CI_Config->load('lab_config')
+#6 /home/wwwbgpscsylheted/public_html/system/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/wwwbgpscsylheted/public_html/system/core/Controller.php(51): CI_Loader->initialize()
+#8 /home/wwwbgpscsylheted/public_html/application/core/Lab_Controller.php(8): CI_Contro in /home/wwwbgpscsylheted/public_html/system/database/drivers/mysql/mysql_driver.php on line 91
+[15-Jun-2020 15:08:31] PHP Parse error:  syntax error, unexpected '[' in /home/wwwbgpscsylheted/public_html/application/controllers/home.php on line 200
+[15-Jun-2020 15:08:55] PHP Parse error:  syntax error, unexpected '[' in /home/wwwbgpscsylheted/public_html/application/controllers/home.php on line 200
+[15-Jun-2020 15:09:45] PHP Fatal error:  Can't use method return value in write context in /home/wwwbgpscsylheted/public_html/application/controllers/home.php on line 266
+[15-Jun-2020 15:11:00] PHP Fatal error:  Can't use method return value in write context in /home/wwwbgpscsylheted/public_html/application/controllers/home.php on line 289
+[15-Jun-2020 15:11:00] PHP Fatal error:  Can't use method return value in write context in /home/wwwbgpscsylheted/public_html/application/controllers/home.php on line 289
+[15-Jun-2020 15:12:06] PHP Fatal error:  Can't use method return value in write context in /home/wwwbgpscsylheted/public_html/application/controllers/home.php on line 289
+[15-Jun-2020 15:12:06] PHP Fatal error:  Can't use method return value in write context in /home/wwwbgpscsylheted/public_html/application/controllers/home.php on line 289
+[15-Jun-2020 15:12:09] PHP Fatal error:  Can't use method return value in write context in /home/wwwbgpscsylheted/public_html/application/controllers/home.php on line 289
+[18-Aug-2020 12:52:00 asia/dhaka] PHP Fatal error:  Call to undefined function generateUniqueSerial() in /home/wwwbgpscsylheted/public_html/application/controllers/testimonial.php on line 78
+[18-Aug-2020 13:00:18 asia/dhaka] PHP Fatal error:  Call to undefined function generateUniqueSerial() in /home/wwwbgpscsylheted/public_html/application/controllers/testimonial.php on line 78
+[18-Aug-2020 13:00:30 asia/dhaka] PHP Fatal error:  Call to undefined function generateUniqueSerial() in /home/wwwbgpscsylheted/public_html/application/controllers/testimonial.php on line 78
+[18-Aug-2020 13:01:05 asia/dhaka] PHP Fatal error:  Call to undefined function generateUniqueSerial() in /home/wwwbgpscsylheted/public_html/application/controllers/testimonial.php on line 78
+[18-Aug-2020 16:15:15 asia/dhaka] PHP Fatal error:  Call to undefined function get_join() in /home/wwwbgpscsylheted/public_html/application/controllers/testimonial.php on line 98
+[26-Aug-2020 10:26:07 asia/dhaka] PHP Fatal error:  Cannot use [] for reading in /home/wwwbgpscsylheted/public_html/application/controllers/registration/regi_validation.php on line 172
+[27-Aug-2020 12:25:16 asia/dhaka] PHP Fatal error:  Call to undefined function get_row() in /home/wwwbgpscsylheted/public_html/application/views/components/registration/profile.php on line 184
+[27-Aug-2020 12:44:30 asia/dhaka] PHP Parse error:  syntax error, unexpected ';' in /home/wwwbgpscsylheted/public_html/application/views/components/registration/profile.php on line 190
+[27-Aug-2020 12:44:31 asia/dhaka] PHP Parse error:  syntax error, unexpected ';' in /home/wwwbgpscsylheted/public_html/application/views/components/registration/profile.php on line 190
+[25-Nov-2020 18:13:49 asia/dhaka] PHP Parse error:  syntax error, unexpected '{' in /home/wwwbgpscsylheted/public_html/application/views/components/header/pages.php on line 156
+[06-Jan-2021 15:26:21 asia/dhaka] PHP Parse error:  syntax error, unexpected '"' in /home/wwwbgpscsylheted/public_html/application/controllers/registration/regi_validation.php on line 82
+[12-Jan-2021 11:19:51 asia/dhaka] PHP Fatal error:  Call to undefined function f_number() in /home/wwwbgpscsylheted/public_html/application/views/components/bank/all_account.php on line 127
+[12-Jan-2021 11:21:17 asia/dhaka] PHP Fatal error:  Call to undefined function f_number() in /home/wwwbgpscsylheted/public_html/application/views/components/bank/all_account.php on line 127
+[08-Feb-2021 15:38:38 asia/dhaka] PHP Fatal error:  Cannot use object of type stdClass as array in /home/wwwbgpscsylheted/public_html/application/views/components/payment/payment-due.php on line 68
+[02-Mar-2021 16:21:32 asia/dhaka] PHP Fatal error:  Cannot use object of type stdClass as array in /home/wwwbgpscsylheted/public_html/application/views/components/employee/add_attendance.php on line 124
+[02-Mar-2021 16:23:09 asia/dhaka] PHP Fatal error:  Cannot use object of type stdClass as array in /home/wwwbgpscsylheted/public_html/application/views/components/employee/add_attendance.php on line 124
+[03-Mar-2021 12:24:12 asia/dhaka] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/wwwbgpscsylheted/public_html/application/views/components/employee/list_attendance.php on line 87
+[03-Mar-2021 12:25:02 asia/dhaka] PHP Fatal error:  Can't use method return value in write context in /home/wwwbgpscsylheted/public_html/application/views/components/employee/list_attendance.php on line 87
+[03-Mar-2021 12:25:06 asia/dhaka] PHP Fatal error:  Can't use method return value in write context in /home/wwwbgpscsylheted/public_html/application/views/components/employee/list_attendance.php on line 87
+[03-Mar-2021 12:27:36 asia/dhaka] PHP Fatal error:  Can't use method return value in write context in /home/wwwbgpscsylheted/public_html/application/views/components/employee/list_attendance.php on line 111
+[10-Apr-2021 15:12:50 asia/dhaka] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/wwwbgpscsylheted/public_html/application/controllers/employee/employee.php on line 354
+[29-Jun-2021 15:28:30 asia/dhaka] PHP Parse error:  syntax error, unexpected '}' in /home/wwwbgpscsylheted/public_html/application/views/components/payment/paymentSingleView.php on line 114
+[24-Oct-2021 14:35:43 asia/dhaka] PHP Fatal error:  Call to undefined function config_items() in /home/wwwbgpscsylheted/public_html/application/views/components/registration/student_registration.php on line 147
+[06-Nov-2021 15:32:46 asia/dhaka] PHP Fatal error:  Cannot use [] for reading in /home/wwwbgpscsylheted/public_html/application/controllers/registration/registration.php on line 48
+[07-Nov-2021 16:34:22 asia/dhaka] PHP Fatal error:  Cannot redeclare Registration::profile() in /home/wwwbgpscsylheted/public_html/application/controllers/registration/registration.php on line 309
+[09-Nov-2021 12:18:11 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 461
+[09-Nov-2021 12:19:27 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 461
+[09-Nov-2021 12:19:43 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:19:43 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:19:43 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:19:43 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:19:44 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:19:44 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:19:44 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:19:44 asia/dhaka] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:22:27 asia/dhaka] PHP Fatal error:  Call to undefined function filte() in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:22:27 asia/dhaka] PHP Fatal error:  Call to undefined function filte() in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[09-Nov-2021 12:22:28 asia/dhaka] PHP Fatal error:  Call to undefined function filte() in /home/wwwbgpscsylheted/public_html/application/views/components/registration/regi_profile.php on line 462
+[16-Nov-2021 10:20:28 asia/dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/wwwbgpscsylheted/public_html/application/views/one2five.php on line 357
+[16-Nov-2021 11:29:05 asia/dhaka] PHP Fatal error:  Call to undefined function get_gpa() in /home/wwwbgpscsylheted/public_html/application/views/one2five.php on line 341
+[16-Nov-2021 11:31:20 asia/dhaka] PHP Fatal error:  Call to undefined function get_gpa() in /home/wwwbgpscsylheted/public_html/application/views/one2five.php on line 341
+[16-Nov-2021 11:48:40 asia/dhaka] PHP Fatal error:  Function name must be a string in /home/wwwbgpscsylheted/public_html/application/views/one2five.php on line 326
+[16-Nov-2021 11:50:03 asia/dhaka] PHP Fatal error:  Function name must be a string in /home/wwwbgpscsylheted/public_html/application/views/one2five.php on line 326
+[16-Nov-2021 11:53:13 asia/dhaka] PHP Fatal error:  Function name must be a string in /home/wwwbgpscsylheted/public_html/application/views/one2five.php on line 328
+[16-Nov-2021 11:58:19 asia/dhaka] PHP Fatal error:  Function name must be a string in /home/wwwbgpscsylheted/public_html/application/views/one2five.php on line 328
+[16-Nov-2021 11:59:11 asia/dhaka] PHP Fatal error:  Function name must be a string in /home/wwwbgpscsylheted/public_html/application/views/one2five.php on line 328
+[16-Nov-2021 11:59:28 asia/dhaka] PHP Fatal error:  Function name must be a string in /home/wwwbgpscsylheted/public_html/application/views/one2five.php on line 328
+[21-Nov-2021 12:29:53 asia/dhaka] PHP Fatal error:  Call to undefined function get_gpa_primary() in /home/wwwbgpscsylheted/public_html/application/views/components/tabulation-sheet.php on line 210
+[22-Nov-2021 09:45:38 asia/dhaka] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/wwwbgpscsylheted/public_html/application/views/components/tabulation-sheet.php on line 230
+[22-Nov-2021 09:47:56 asia/dhaka] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/wwwbgpscsylheted/public_html/application/views/components/tabulation-sheet.php on line 230
+[22-Nov-2021 09:48:05 asia/dhaka] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/wwwbgpscsylheted/public_html/application/views/components/tabulation-sheet.php on line 231
+[22-Nov-2021 09:48:10 asia/dhaka] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/wwwbgpscsylheted/public_html/application/views/components/tabulation-sheet.php on line 231
+[22-Nov-2021 09:48:24 asia/dhaka] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/wwwbgpscsylheted/public_html/application/views/components/tabulation-sheet.php on line 234
+[22-Nov-2021 10:01:46 asia/dhaka] PHP Fatal error:  Unsupported operand types in /home/wwwbgpscsylheted/public_html/application/views/components/tabulation-sheet.php on line 233
+[22-Nov-2021 10:16:45 asia/dhaka] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/wwwbgpscsylheted/public_html/application/views/components/tabulation-sheet.php on line 233
+[22-Nov-2021 16:28:24 asia/dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/wwwbgpscsylheted/public_html/application/views/components/tabulationSheet/primary_education.php on line 202
+[22-Nov-2021 16:30:31 asia/dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/wwwbgpscsylheted/public_html/application/views/components/tabulationSheet/primary_education.php on line 202
+[23-Nov-2021 11:44:16 asia/dhaka] PHP Fatal error:  Call to undefined function filter() in /home/wwwbgpscsylheted/public_html/application/views/six2ten.php on line 195
